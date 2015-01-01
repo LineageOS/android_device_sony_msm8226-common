@@ -109,3 +109,6 @@ TARGET_SYSTEM_PROP := device/sony/msm8226-common/system.prop
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
+
+# Recovery
+TARGET_RECOVERY_FSTAB := device/sony/msm8226-common/rootdir/fstab.yukon
