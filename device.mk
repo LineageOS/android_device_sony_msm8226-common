@@ -20,6 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 SONY_ROOT:=device/sony/msm8226-common/rootdir
 
 PRODUCT_COPY_FILES += \
+    $(SONY_ROOT)/fstab.yukon:root/fstab.yukon \
     $(SONY_ROOT)/ueventd.yukon.rc:root/ueventd.yukon.rc \
     $(SONY_ROOT)/init.yukon.rc:root/init.yukon.rc \
     $(SONY_ROOT)/init.yukon.usb.rc:root/init.yukon.usb.rc \
