@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_deb6863c",
+        "filename": "rootdir/init.yukon.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-01-02T02:28:43Z",
+      "side": 1,
+      "message": "I don\u0027t think you want them to be here since not all models have these partitions, and this would lead to unnecessarily increased boot time.\n\nAlso, what is /persist used for?",
+      "revId": "58fb42999e41c86109351bffc52988291e1156ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
