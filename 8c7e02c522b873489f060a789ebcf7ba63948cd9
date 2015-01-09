@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_1a7125e1",
+        "filename": "rootdir/system/etc/gps.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2015-01-09T06:54:34Z",
+      "side": 1,
+      "message": "try ping it.\nit will time out\nstay on time.gpsonextra.net",
+      "revId": "8c7e02c522b873489f060a789ebcf7ba63948cd9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
