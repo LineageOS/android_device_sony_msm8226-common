@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessingdescriptors \
     libqcompostprocbundle
 
+# Camera wrapper
+PRODUCT_PACKAGES += \
+    camera.msm8226
+
 # FM radio
 PRODUCT_PACKAGES += \
     qcom.fmradio \
