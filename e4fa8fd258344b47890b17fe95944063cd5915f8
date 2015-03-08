@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_c82a597e",
+        "filename": "overlay/frameworks/base/packages/SystemUI/res/values/defaults.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 6521
+      },
+      "writtenOn": "2015-03-08T14:18:05Z",
+      "side": 1,
+      "message": "Isn\u0027t this already set for everyone?",
+      "revId": "e4fa8fd258344b47890b17fe95944063cd5915f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
