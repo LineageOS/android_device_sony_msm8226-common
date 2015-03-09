@@ -14,15 +14,15 @@
 
 include device/sony/common/BoardConfigCommon.mk
 
+# Architecture
 TARGET_ARCH := arm
-TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_BOARD_PLATFORM := msm8226
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
+TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
-TARGET_CPU_SMP := true
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
+
+TARGET_BOARD_PLATFORM := msm8226
+
 TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RECOVERY := false
 TARGET_NO_KERNEL := false
@@ -60,7 +60,6 @@ TARGET_USES_C2D_COMPOSITION := true
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
-BOARD_EGL_CFG := device/sony/msm8226-common/rootdir/system/lib/egl/egl.cfg
 
 BOARD_USES_QCOM_HARDWARE := true
 
