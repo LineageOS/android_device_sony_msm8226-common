@@ -414,9 +414,8 @@ service fuse_usbdisk /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_rw
     disabled
 
 service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
-    class late_start
     user root
-    group system fm_radio
+    group system
     disabled
     oneshot
 
