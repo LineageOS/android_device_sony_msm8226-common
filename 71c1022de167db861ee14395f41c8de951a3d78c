@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_11e78fe5",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-03-20T00:54:18Z",
+      "side": 1,
+      "message": "If anything, you should make 8960 follow the TARGET_A/B/C order.",
+      "revId": "71c1022de167db861ee14395f41c8de951a3d78c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
