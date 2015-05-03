@@ -139,10 +139,6 @@ PRODUCT_PACKAGES += \
     Tag \
     nfc_nci.pn54x.default
 
-# Power
-PRODUCT_PACKAGES += \
-    power.yukon
-
 #GPS
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -214,8 +210,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
-
-# QC Perf
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=/vendor/lib/libqc-opt.so
-

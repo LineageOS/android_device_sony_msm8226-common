@@ -38,7 +38,7 @@ BOARD_CUSTOM_BOOTIMG_MK := device/sony/msm8226-common/boot/custombootimg.mk
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=yukon
-BOARD_KERNEL_CMDLINE += user_debug=31 msm_rtb.filter=0x37 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += user_debug=31 msm_rtb.filter=0x37 androidboot.selinux=permissive coherent_pool=8M vmalloc=400M
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -61,7 +61,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 BOARD_EGL_CFG := device/sony/msm8226-common/rootdir/system/lib/egl/egl.cfg
 
+# Audio
 BOARD_USES_ALSA_AUDIO := true
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
 USE_CAMERA_STUB := false
 TARGET_USES_ION := true
@@ -108,10 +110,6 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # CM Hardware
 BOARD_HARDWARE_CLASS += device/sony/msm8226-common/cmhw
-
-# Power definitions for Qualcomm solution
-TARGET_POWERHAL_VARIANT := qcom
-CM_POWERHAL_EXTENSION := yukon
 
 # Lights HAL
 TARGET_PROVIDES_LIBLIGHT := true
